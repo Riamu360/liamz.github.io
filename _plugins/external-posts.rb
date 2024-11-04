@@ -85,21 +85,21 @@ module ExternalPosts
       end
     end
 
-    def fetch_content_from_url(url)
-      html = HTTParty.get(url, timeout: 60).body
-      parsed_html = Nokogiri::HTML(html)
+    # def fetch_content_from_url(url)
+    #   html = HTTParty.get(url, timeout: 60).body
+    #   parsed_html = Nokogiri::HTML(html)
 
-      title = parsed_html.at('head title')&.text.strip || ''
-      description = parsed_html.at('head meta[name="description"]')&.attr('content') || ''
-      body_content = parsed_html.at('body')&.inner_html || ''
+    #   title = parsed_html.at('head title')&.text.strip || ''
+    #   description = parsed_html.at('head meta[name="description"]')&.attr('content') || ''
+    #   body_content = parsed_html.at('body')&.inner_html || ''
 
-      {
-        title: title,
-        content: body_content,
-        summary: description
-        # Note: The published date is now added in the fetch_from_urls method.
-      }
-    end
+    #   {
+    #     title: title,
+    #     content: body_content,
+    #     summary: description
+    #     # Note: The published date is now added in the fetch_from_urls method.
+    #   }
+    # end
 
   end
 end
