@@ -3,7 +3,7 @@
  * To adjust anything, simply edit the variables below and rebuild the theme.
  ******************************************************************************/
 
-@import "sass:color";
+@use "sass:color";
 
 // Colors
 $red-color: #ff3636 !default;
