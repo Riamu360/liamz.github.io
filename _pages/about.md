@@ -7,11 +7,11 @@ subtitle: <a href='#'>Afiliación:</a> Estudiante de Ingeniería en Ciencias de 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Estudiante</p>
+    <p>Estudiante Ing. Computación</p>
     <p>"Queseras del Medio y Andalucía"</p>
-    <p>Quito, Ecuador</p>
+    <p>Quito - Ecuador</p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
