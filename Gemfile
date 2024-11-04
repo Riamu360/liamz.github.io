@@ -24,6 +24,9 @@ group :jekyll_plugins do
   gem 'jemoji', '0.12.0'
   gem 'unicode_utils', '1.4.0'
   gem 'webrick', '1.8.2'  # Especifica la versión
+  gem 'base64'  # Añadida
+  gem 'observer'  # Añadida
+  gem 'ostruct'  # Añadida
 end
 
 group :other_plugins do
@@ -32,7 +35,7 @@ group :other_plugins do
   gem 'httparty', '0.22.0'
   gem 'i18n', '0.9.5'
   gem 'kramdown', '2.3.0'
-  gem 'liquid', '4.0.3'
+  gem 'liquid', '~> 4.0.3'  # o la última versión compatible
   gem 'rouge', '3.26.0'
   gem 'github-pages-health-check', '1.17.0'
   gem 'jekyll-avatar', '0.7.0'
