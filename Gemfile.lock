@@ -374,7 +374,7 @@ DEPENDENCIES
   css_parser
   feedjira
   fiddle
-  github-pages (= 212)
+  github-pages
   httparty
   jekyll (= 3.9.0)
   jekyll-archives
