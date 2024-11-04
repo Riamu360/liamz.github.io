@@ -20,11 +20,11 @@
    --global-card-bg-color: #{$white-color};
    --global-highlight-color: #{$red-color-dark};
  
-   // Corregido la interpolación de color para el fondo del botón "back to top"
+   // Corregido el fondo del botón "back to top"
    --global-back-to-top-bg-color: rgba(
-     #{color.red($black-color)},
-     #{color.green($black-color)},
-     #{color.blue($black-color)},
+     red($black-color),
+     green($black-color),
+     blue($black-color),
      0.4
    );
  
@@ -93,30 +93,17 @@
    --global-divider-color: #424246;
    --global-card-bg-color: #{$grey-900};
  
-   // Corregido la interpolación de color para el fondo del botón "back to top" en el tema oscuro
+   // Corregido el fondo del botón "back to top" en el tema oscuro
    --global-back-to-top-bg-color: rgba(
-     #{color.red($white-color)},
-     #{color.green($white-color)},
-     #{color.blue($white-color)},
+     red($white-color),
+     green($white-color),
+     blue($white-color),
      0.5
    );
  
    --global-back-to-top-text-color: #{$black-color};
    --global-newsletter-bg-color: #{$grey-color-light};
    --global-newsletter-text-color: #{$grey-color-dark};
- 
-   --global-tip-block: #42b983;
-   --global-tip-block-bg: #e2f5ec;
-   --global-tip-block-text: #215d42;
-   --global-tip-block-title: #359469;
-   --global-warning-block: #e7c000;
-   --global-warning-block-bg: #fff8d8;
-   --global-warning-block-text: #6b5900;
-   --global-warning-block-title: #b29400;
-   --global-danger-block: #c00;
-   --global-danger-block-bg: #ffe0e0;
-   --global-danger-block-text: #600;
-   --global-danger-block-title: #c00;
  
    .repo-img-light {
      display: none;
