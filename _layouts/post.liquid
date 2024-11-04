@@ -71,7 +71,20 @@ layout: default
   <article class="post-content">
     {% if page.toc %}
       <div id="table-of-contents">
-        {% toc %}
+        <h2>Table of Contents</h2>
+        <ul>
+          {% assign headings = content | split: '<h' %}
+          {% for heading in headings %}
+            {% if heading contains '>' %}
+              {% assign heading_parts = heading | split: '>' %}
+              {% assign heading_content = heading_parts[1] | strip_html %}
+              {% assign heading_id = heading_parts[0] | split: 'id="' | last | split: '"' | first %}
+              {% if heading_id %}
+                <li><a href="#{{ heading_id }}">{{ heading_content }}</a></li>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </ul>
       </div>
       <hr>
     {% endif %}
