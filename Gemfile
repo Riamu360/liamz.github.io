@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
+
 group :jekyll_plugins do
     gem 'wdm', '>= 0.1.0'
-    gem 'jekyll', '~> 4.2.0'
-    gem "github-pages"
+    gem 'jekyll', '3.9.0'  # Mantener esta versión
+    gem 'github-pages', '212'  # Asegúrate de que esto sea compatible
     gem 'observer'
     gem 'fiddle'
     gem 'ostruct'
     gem 'classifier-reborn'
-    gem 'jekyll'
     gem 'jekyll-archives'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
@@ -18,7 +18,7 @@ group :jekyll_plugins do
     gem 'jekyll-minifier'
     gem 'jekyll-paginate-v2'
     gem 'jekyll-regex-replace'
-    gem 'jekyll-scholar'
+    gem 'jekyll-scholar', '< 6.0'  # Cambia a una versión anterior
     gem 'jekyll-sitemap'
     gem 'jekyll-tabs'
     gem 'jekyll-toc'
@@ -27,6 +27,7 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
 end
+
 group :other_plugins do
     gem 'css_parser'
     gem 'feedjira'
