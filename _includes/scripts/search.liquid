@@ -269,17 +269,6 @@
             },
           },
         {%- endif -%}
-        {%- if site.x_username -%}
-          {
-            id: 'socials-x',
-            title: 'X',
-            description: 'Twitter',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://twitter.com/{{ site.x_username }}", "_blank");
-            },
-          },
-        {%- endif -%}
         {%- if site.mastodon_username -%}
           {
             id: 'socials-mastodon',
