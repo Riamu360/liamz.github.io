@@ -184,7 +184,7 @@
   --jp-inspector-icon-color: var(--md-grey-700);
   --jp-switch-true-position-color: var(--md-orange-900);
 
-  @import "jupyter-grade3";
+  @useort "jupyter-grade3";
 }
 
 body[data-jp-theme-light="false"] {
@@ -379,5 +379,5 @@ body[data-jp-theme-light="false"] {
   --jp-inspector-icon-color: var(--md-grey-200);
   --jp-switch-true-position-color: var(--md-orange-700);
 
-  @import "jupyter-monokai";
+  @useort "jupyter-monokai";
 }
