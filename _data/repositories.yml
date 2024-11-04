@@ -1,14 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - riamu360
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - riamu360/liamz.github.io
+  - riamu360/Liam-Zuniga---Tarea-04-Ejercicios-Unidad-02-A-Biseccion
+  
