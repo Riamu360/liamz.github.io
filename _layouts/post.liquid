@@ -48,7 +48,7 @@ layout: default
         {% for category in page.categories %}
           {% if url_beginning == '/blog/' %}
             <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}">
-              <i class="fa-solid fa-tag fa-sm"></i> {{ category }}
+              <i class="fa-solid fa-tag fa-sm"></i> {{ category -}}
             </a>
           {% else %}
             <i class="fa-solid fa-tag fa-sm"></i> {{ category }}
@@ -62,7 +62,7 @@ layout: default
   </header>
 
   <article class="post-content">
-    {% if page.toc %}
+    {% if page.toc and page.toc.beginning %}
       <div id="table-of-contents">
         {% toc %}
       </div>
