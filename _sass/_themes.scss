@@ -2,7 +2,7 @@
  * Themes
  ******************************************************************************/
 
-@use "sass:color";
+@import "sass:color";
 
 :root {
   --global-bg-color: #{$white-color};

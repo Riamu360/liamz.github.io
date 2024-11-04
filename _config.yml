@@ -80,7 +80,7 @@ facebook_id: # your facebook id
 flickr_id: # your flickr id
 github_username: Riamu360
 gitlab_username: # your GitLab user name
-ieee_id: # your ieeexplore.ieee.org/author/id
+ieee_id: 100687100 # your ieeexplore.ieee.org/author/id
 inspirehep_id: # Inspire HEP author ID
 instagram_id: # your instagram id
 kaggle_id: # your kaggle id
@@ -113,7 +113,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Ante cualquier duda, te puedes comunicar conmigo por Email o Discord.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
