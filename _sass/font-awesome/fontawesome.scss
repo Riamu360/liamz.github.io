@@ -6,16 +6,16 @@
 // Font Awesome core compile (Web Fonts-based)
 // -------------------------
 
-@useort 'functions';
-@useort 'variables';
-@useort 'mixins';
-@useort 'core';
-@useort 'sizing';
-@useort 'fixed-width';
-@useort 'list';
-@useort 'bordered-pulled';
-@useort 'animated';
-@useort 'rotated-flipped';
-@useort 'stacked';
-@useort 'icons';
-@useort 'screen-reader';
+@import 'functions';
+@import 'variables';
+@import 'mixins';
+@import 'core';
+@import 'sizing';
+@import 'fixed-width';
+@import 'list';
+@import 'bordered-pulled';
+@import 'animated';
+@import 'rotated-flipped';
+@import 'stacked';
+@import 'icons';
+@import 'screen-reader';
