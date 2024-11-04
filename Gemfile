@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
     gem 'wdm', '>= 0.1.0'
+    gem 'jekyll', '~> 4.2.0'
     gem "github-pages"
     gem 'observer'
     gem 'fiddle'
