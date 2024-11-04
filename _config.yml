@@ -229,6 +229,7 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
+  - assets/jupyter
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
