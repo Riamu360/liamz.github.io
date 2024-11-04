@@ -4,7 +4,7 @@ title: Proyecto 1
 description: Dibujo para Exposición de Arte, EPN
 img: assets/img/Stella Vermillion Galeria de Arte 2.png
 importance: 3
-category: fun
+category: Diversión
 ---
 
 Fue un dibujo que hice para una galeria del Club de Arte hace casi 2 años, lo cual me llevo mucho tiempo pero lo importante es que quedó muy bien, a continuación el proceso:

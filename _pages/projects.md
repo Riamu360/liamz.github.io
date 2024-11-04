@@ -5,7 +5,7 @@ permalink: /projects/
 description: Un pequeño vistazo a mis proyectos.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Trabajo, Diversión]
 horizontal: false
 ---
 

@@ -22,3 +22,5 @@ Escuela Politécnica Nacional
 Soy estudiante de la carrera de Ingeniería en Ciencias de la Computación en la Escuela Politécnica Nacional. Lo que me apasionaría hacer en un futuro es trabajar en Desarrollo de Videojuegos o en Ciberseguridad.
 
 En mi tiempo libre, me gusta dibujar mientras escucho música o jugar para pasar el tiempo. De vez en cuando, salgo a fiestas con mis amigos o veo series con mi mejor amiga.
+
+Mis habilidades incluyen una fuerte capacidad de trabajo en equipo, comunicación efectiva y sobre todo soy una persona adaptable y dispuesta a aprender nuevas tecnologías. Además, poseo una gran creatividad y atención al detalle.
