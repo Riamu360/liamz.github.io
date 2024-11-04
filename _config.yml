@@ -173,7 +173,7 @@ external_sources:
     rss_url: https://medium.com/@al-folio/feed
   - name: Google Blog
     posts:
-      - url:
+      - url: https://www.youtube.com/watch?v=srhni4w2TbI
         published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
